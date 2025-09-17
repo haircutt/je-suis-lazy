@@ -2,6 +2,8 @@
 
 # UNSW WAM --> sum of (grade * no. units) / total units
 
+#Format: 
+
 import sys
 import math
 
