@@ -5,5 +5,10 @@ small little pipelines, filters and wam calc so i dont have to look for my calcu
 silly little WAM calculator for UNSW. 
 takes in standard input.
 ``` "mark UOC"
+mark UOC
 "80 6"
 ctrl + d
+
+
+Your current WAM is 480 divide by 6
+
