@@ -24,7 +24,7 @@ for j in range(1, m):
 
 for row in score_matrix:
     print(row)
-    print(40 * '-')
+print(40 * '-')
 
 # fill in scoring matrix
 for i in range(1, n):
@@ -35,7 +35,7 @@ for i in range(1, n):
             diag = score_matrix[i-1][j-1] + penalty
         up = score_matrix[i-1][j] + gap
         left = score_matrix[i][j-1] + gap
-        score_matrix[i][j] = max(diag, up, left)
+        score_matrix[i][j] = min(diag, up, left)
 for row in score_matrix:
     print(row)
    
