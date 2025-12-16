@@ -19,7 +19,7 @@ if [ "$answer" = "yes" ]; then
     # Check all files exist
     for file in $files; do
         if [ ! -f "$file" ]; then
-            echo "File '$file' does not exist. Exiting."
+            echo "File '$file' does not exist. 🫛🐝 with you."
             exit 1
         fi
     done
