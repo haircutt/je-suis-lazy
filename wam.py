@@ -7,10 +7,9 @@
 import sys
 import math
 
-# calc = {}
 
 total_units = 0
-linecount = 0 # not needed, but im mean
+linecount = 0 # not needed, but im releasing all my anger at the world into my code
 total_grade = 0 
 
 for line in sys.stdin:
